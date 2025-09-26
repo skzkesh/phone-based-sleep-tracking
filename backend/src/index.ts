@@ -119,6 +119,7 @@ app.get('/', (req: Request, res: Response) => {
 app.post('/analyze', async (req, res) => {
     try {
         const samples: { timestamp: number; rms: number }[] = req.body;
+        
         const averageRMS: number = calculateAverageRMS(samples);
         const rest: ActivityRecord[] = restDetection(samples);
         const sleepPeriod: number[] = sleepWindow(rest);
