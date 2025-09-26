@@ -1,12 +1,8 @@
 <h1>Phone Based Sleep Tracking</h1>
-**Project Demo Link**:
+**Project Demo Link**: Link
+
 ## Overview
 **Phone Based Sleep Tracking** is a simple prototype for basic sleep anaylsis feature built with Quasar (Vue) frontend and Node.js backend. The app will record physical movement of the phone, especially acceleration along the X, Y, and Z axes typically in m/s^2. The app will display the sleep duration, sleep quality, and sleep efficiency based on the input metrics.</p>
-
-<h3>Setup</h3>
-<p>1. Clone this repository: </p>
-<p>2. Open the project through your Visual Studio Code</p>
-<p>3. </p>
 
 ## Features
 - **Sleep duration**: The duration of sleep based on their low activity period.
@@ -79,3 +75,4 @@ export default BASE_URL;
 
 ## 🧪 Test the App
 Open the app on a physical device or emulator and ensure both devices are on the same Wi-Fi
+
